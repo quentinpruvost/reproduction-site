@@ -1,0 +1,87 @@
+.Titre {
+    color:mediumblue;
+    background-color: coral;
+    margin: 200px;
+    font-size: 100px;
+}
+/* animation couleur du lien */
+
+@keyframes animation {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+/* sert au rembourage du paragraphe */
+p {
+    padding: 50px 30px 50px 80px;
+    }
+    /* Cible n'importe quel élément <p> lorsque  */
+/* celui-ci est survolé */
+    p:hover {
+        background-color: gold;
+    }
+
+.lien1  {
+        width: 100px;
+        height: 100px;
+        animation-name: animation;
+        animation-duration: 4s;
+        animation-iteration-count:infinite;
+ }
+
+img {
+    border: 3px solid black;
+}
+/* image de fond */
+html {
+    background-image: url("https://c8.alamy.com/compfr/b90rm7/light-blue-floral-background-avec-conception-qui-se-repete-b90rm7.jpg");
+}
+/* animation de l'image */
+.Image {
+    display: block;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+  
+.Image:hover {
+    transform: rotate(180deg);
+  }
+
+  /* configuration des bouton*/
+
+.btn {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #000000;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.Tableau {
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* change la couleur du lien */
+li a:hover {
+    background-color: #111;
+}

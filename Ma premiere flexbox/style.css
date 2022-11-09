@@ -1,0 +1,11 @@
+section{
+    display: flex;
+ flex-wrap: wrap;
+}
+div{
+    min-width: 250px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex:1;
+}
